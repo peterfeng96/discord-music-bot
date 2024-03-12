@@ -1,0 +1,33 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "discord music bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterfeng96/discord-music-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterfeng96/discord-music-bot/issues"
+  },
+  "homepage": "https://github.com/peterfeng96/discord-music-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/rest": "^2.2.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord-api-types": "^0.37.73",
+    "discord-player": "^6.6.7",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "ytdl-core": "^4.11.5"
+  }
+}
